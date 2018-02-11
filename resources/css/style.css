@@ -1,0 +1,162 @@
+/*base text*/
+html{
+  font-size: 18px;
+}
+/*global style for whole page*/
+body{
+  font-family: Helvetica;
+  color: white;
+  margin: 0px;
+}
+/*supposed to make background color of header black and remove any whitespace from above the header*/
+header{
+  background-color: black;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+/*sets site container width*/
+.container{
+
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+#header img {
+  padding-left: .5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+/*makes header text nice and centered*/
+#header span{
+  font-size: 1rem;
+
+}
+/*applies to image and text of header*/
+.company-banner {
+  margin-top: .66rem;
+  margin-bottom: .66rem;
+}
+
+
+/*background image for main banner*/
+.main-banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  height: 25rem;
+  background-size: cover;
+}
+/*styles for text block on the main banner*/
+.headline {
+  background-color: black;
+  width: 20rem;
+  position: relative;
+  top: 9rem;
+  left: 10rem;
+  height: 10rem;
+
+}
+
+h4{
+  font-size: 1rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 2rem 3rem 0.25rem 3rem;
+
+  margin-bottom: .25rem;
+}
+h1 {
+  font-size: 2rem;
+  font-family: Helvetica;
+  padding-left: 3rem;
+
+}
+
+/*nav styles*/
+#nav{
+  background-color: firebrick;
+}
+.navigation-bar{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.navigation-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+li {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+.products{
+  margin-top: 3rem;
+}
+.products span{
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.pen, .watch, .glasses {
+  border: 4px solid black;
+  width: 30%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pen img, .watch img, .glasses img{
+  height: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.info{
+  margin-top: 3rem;
+
+
+
+}
+.width{
+  width: 960px;
+  margin: 0 auto;
+
+}
+.location, .hours {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.info .title{
+  background-color: black;
+}
+.info .title1 {
+  background-color: white;
+  color: black;
+}
+.container .info{
+  display: flex;
+  justify-content: space-between;
+
+}
+footer{
+  margin-top: 4rem;
+}
